@@ -3,17 +3,94 @@ html {
 }
 
 body {
-    background: url('/media/kettlebell_b&w_1.jpg') no-repeat center center fixed;
-    background-size: cover;
+    /* background: url('/media/kettlebell_b&w_1.jpg') no-repeat center center fixed;
+    background-size: cover; */
     height: calc(100vh - 164px);
     color: blanchedalmond;
     font-family: 'Roboto', sans-serif;
 }
 
+.homepage-bg-image {
+    height: 90vh;
+    background: url('/media/health_fitness_session.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about-bg-image {
+    height: 90vh;
+    background: url('/media/kettlebell_b&w_1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.team-services-bg-image {
+    height: 90vh;
+    background: url('/media/team_training.jpg') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.s-and-c-services-bg-image {
+    height: 90vh;
+    background: url('/media/barbell_b&w_1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nutrition-services-bg-image {
+    height: 90vh;
+    background: url('/media/nutrition.png') no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.contact-bg-image {
+    height: 80vh;
+    background: url('/media/cardio_b&w_1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .navbar-AP-brand-logo {
     position: relative;
     background: url(/media/AP_logo_clear_background.png) no-repeat center center;
-
     background-size: contain;
 }
 
@@ -45,7 +122,7 @@ body {
 
 .btn-black {
     background: black;
-    color: white;
+    color: blanchedalmond;
 }
 
 .shop-now-button:hover,
@@ -54,8 +131,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: grey;
-    color: green;
+    background: rgba(255, 255, 255, 0.1);
+    color: blanchedalmond;
 }
 
 .text-black {
