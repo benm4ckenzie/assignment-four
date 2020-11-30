@@ -10,6 +10,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .homepage-bg-image {
     height: 90vh;
     background: url('/media/health_fitness_session.jpg') no-repeat center top fixed;
