@@ -91,6 +91,12 @@ img {
     background-size: contain;
 }
 
+#navbar-searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .icon {
     align-items: center;
     display: inline-flex;
