@@ -111,6 +111,10 @@ img {
     color: white;
 }
 
+.nav-background-colour {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .shop-now-button {
     background: white;
     color: black;
