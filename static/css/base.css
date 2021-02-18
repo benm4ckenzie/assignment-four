@@ -2,14 +2,6 @@ html {
     height: 100%;
 }
 
-body {
-    /* background: url('/media/kettlebell_b&w_1.jpg') no-repeat center center fixed;
-    background-size: cover; */
-    height: calc(100vh - 164px);
-    color: blanchedalmond;
-    font-family: 'Roboto', sans-serif;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -116,18 +108,18 @@ img {
 }
 
 .nav-text-color {
-    color: blanchedalmond;
+    color: white;
 }
 
 .shop-now-button {
-    background: blanchedalmond;
+    background: white;
     color: black;
     min-width: 260px;
 }
 
 .btn-black {
     background: black;
-    color: blanchedalmond;
+    color: white;
 }
 
 .shop-now-button:hover,
@@ -136,8 +128,8 @@ img {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: rgba(255, 255, 255, 0.1);
-    color: blanchedalmond;
+    background: #333333;
+    color: white;
 }
 
 .text-black {
