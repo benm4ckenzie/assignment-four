@@ -1,11 +1,43 @@
+/*---------------------------------------------------------------------SITE WIDE*/
+
 html {
     height: 100%;
+}
+
+body {
+    height: (100vh - 164px);
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/*---------------------------------------------------------------------BACKGROUND IMAGES*/
 
 .homepage-bg-image {
     height: 90vh;
@@ -85,32 +117,12 @@ img {
     position: relative;
 }
 
+/*---------------------------------------------------------------------NAVBAR*/
+
 .navbar-AP-brand-logo {
     position: relative;
     background: url(/media/AP_logo_clear_background.png) no-repeat center center;
     background-size: contain;
-}
-
-#navbar-searchbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-.logo-font {
-    text-transform: uppercase;
-}
-
-.main-logo-link {
-    width: fit-content;
 }
 
 .nav-text-color {
@@ -142,16 +154,7 @@ img {
     color: white;
 }
 
-.text-black {
-    color: black !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-
-
+/*---------------------------------------------------------------------MEDIA QUERIES*/
 
 @media (min-width: 1200px) {
     .container {
